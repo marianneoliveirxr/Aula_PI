@@ -3,4 +3,24 @@
 .container {
     font-family: Arial, sans-serif;
     padding: 20px;
+    background-color: #91ff91;
+    color: #55037e;
+}
+.cabecalho{
+    background-color: #f9ff7e;
+    text-align: center;
+}
+.titulo-principal{
+    font-size: 32px;
+    font-weight: bold;
+    color: #bd0d0d;
+}
+.subtitulo{
+    color: #ff9d00;
+}
+.conteudo{
+    background-color: #7f89ff;
+}
+.conteudo h1{
+    color: #e60e60;
 }
