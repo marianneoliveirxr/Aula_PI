@@ -159,7 +159,7 @@ body{
     height: auto;
     gap:10px;
     font-family:'Montserrat', sans-serif;
-    margin-top: 30px;
+    margin: 40px;
 }
 
 .card-cadastro h2{
@@ -171,12 +171,13 @@ body{
     font-weight: 600;
 }
 
-.card-login{
-    color:#f91052;
-}
-
 .card-login h2{
     color: #f91052;
+}
+
+.card-login span{
+    color:#f91052;
+    font-weight: 600;
 }
 
 .card-login{
@@ -191,22 +192,34 @@ body{
     width: 450px;
     height: auto;
     font-family:'Montserrat', sans-serif;
-    
 }
 
 .formulario{
-    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     
 }
 
-.formulario .botao{
+.botao{
     background-color: #f91052;
     color: white;
+    margin-left: 35%;
+    width: 100px;
+    border: 2px solid #f91052;
+    border-radius: 5px;
+    height: 25px;
 }
 
 .campo{
     display: flex;
     flex-direction: column;
+}
+.campo input{
+    width: 400px;
+    height: 20px;
+    border: 2px solid #39b8c7;
+    border-radius: 5px;
 }
 
 
