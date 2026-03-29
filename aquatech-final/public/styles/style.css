@@ -136,7 +136,7 @@ body{
 /*TELA DE CADASTRO*/
 
 .login{
-    height: 600px;
+    height: 900px;
     background-image: url('../assets/imgs/bg-jelly-fish-para-home.png');
 }
 
@@ -159,6 +159,7 @@ body{
     height: auto;
     gap:10px;
     font-family:'Montserrat', sans-serif;
+    margin-top: 30px;
 }
 
 .card-cadastro h2{
@@ -167,6 +168,7 @@ body{
 
 .card-cadastro span{
     color:#f91052;
+    font-weight: 600;
 }
 
 .card-login{
@@ -188,18 +190,26 @@ body{
     border-radius: 10px;
     width: 450px;
     height: auto;
-    gap:10px;
     font-family:'Montserrat', sans-serif;
+    
 }
 
 .formulario{
     margin-bottom: 15px;
+    
+}
+
+.formulario .botao{
+    background-color: #f91052;
+    color: white;
 }
 
 .campo{
     display: flex;
     flex-direction: column;
 }
+
+
 
 /* FOOTER */
 .footer{
