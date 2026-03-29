@@ -1,4 +1,6 @@
 /* Adicionar aqui toda a estilização criada para sua aplicação. */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;600&display=swap');
+
 body{
     margin: 0;
     background-color: black;
@@ -21,7 +23,7 @@ body{
 .titulo{
     display: flex;
     justify-content: center;
-    width: 280px;
+    width: 290px;
     height: auto;
     margin-top: 13px;
 }
@@ -48,8 +50,8 @@ body{
     color: white;
     text-decoration: none;
     font-size: 24px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     transition: 0.3s;
 }
 .navbar a:hover {
@@ -77,9 +79,9 @@ body{
     color: white;
     justify-content: center;
     margin-top: 119px;
-    font-size: 27px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
+    font-size: 26px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
 }
 .banner-container span{
     margin: 0px 5px;
@@ -131,24 +133,71 @@ body{
     align-items: center; 
     max-width: 500px;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
 }
 .box-text h4{
     text-align: center;
-    font-size: 40px; 
+    font-size: 50px; 
     margin-bottom: 15px;
     color: #2d5bc0;
+    font-family: 'Pacifico', cursive;
 }
 .box-text p{
     font-size: 20px;
     line-height: 1.6;
     text-align: justify;
+    font-family: 'Poppins', sans-serif;
 }
 .box-text li{
     text-align: justify;
     font-size: 20px;
     line-height: 1.6;
+    font-family: 'Poppins', sans-serif;
 }
 .box-text span{
     font-weight: 800;
+    color: #2d5bc0;
+}
+
+/* FOOTER */
+
+.footer {
+  background: linear-gradient(180deg, #020617, #0f172a);
+  padding: 30px 20px;
+  margin-top: 80px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+
+.footer h4 {
+  font-family: 'Poppins', sans-serif;
+  color: #cbd5f5;
+  font-size: 16px;
+  margin: 0;
+}
+
+
+.footer .version {
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  color: #38bdf8;
+  opacity: 0.8;
+}
+
+.footer:hover {
+  box-shadow: 0 -5px 20px rgba(56, 189, 248, 0.2);
+  transition: 0.3s;
+}
+
+/* TELA DE LOGIN */
+
+.login{
+    
 }

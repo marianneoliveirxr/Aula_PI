@@ -1,0 +1,127 @@
+/* Adicionar aqui toda a estilização criada para sua aplicação. */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;600&display=swap');
+
+body{
+    background-color: black;
+    color: white;
+}
+/* HEADER */
+.header{
+    background-color: black;
+    width: 100%;
+    border-bottom: 1px solid #00cfe8;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+.titulo{
+    display: flex;
+    justify-content: flex-start;
+    color: #00cfe8;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    margin-left: 60px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    list-style: none;
+    color: #ffbd60;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 60px;
+
+}
+
+.navbar li{
+    margin-right: 20px;
+    text-decoration: none;
+    color: #ffbd60;
+}
+
+.navbar a{
+    margin-right: 10px;
+    list-style: none;
+    text-decoration: none;
+    color: #ffbd60;
+}
+
+/* FIM DO HEADER */
+
+/* BANNER HOME */
+.banner{
+    background-image: url('../assets/imgs/bg-jelly-fish-para-home.png');
+    height: 400px;
+
+}
+.banner .container{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 30px;
+
+}
+.banner .container p{
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: column;
+    align-self: center;
+    margin-top: 150px;
+    margin-right: 150px;
+}
+.banner .container span{
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: bolder;
+}
+
+.social{
+    background-image: url('../assets/imgs/banner-fundo.jpeg');
+    background-size: 190%;
+    background-position: center;
+}
+.social .container{
+    height: 400px;
+}
+.boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    text-align: center;
+    font-family:'Poppins', sans-serif;
+
+}
+.box img{
+    width:100px;
+}
+.box h4{
+    color: #f91052;
+    font-weight: 600;
+}
+.box p{
+    color: hwb(0 16% 80%);
+    font-weight: 500;
+}
+
+/* FOOTER */
+.footer{
+
+}
+
+.footer .container{
+
+}
